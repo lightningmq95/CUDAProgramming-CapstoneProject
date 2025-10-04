@@ -10,7 +10,7 @@ For each image, the pipeline performs:
 
 The entire process is managed with CUDA streams and events to maximize throughput and accurately measure performance.
 
-## ✨ Core Concepts Demonstrated
+## Core Concepts Demonstrated
 
 - **CUDA Kernels**: A custom kernel, `sepia_kernel`, is implemented to apply the sepia filter. Each thread is responsible for one output pixel. It reads the corresponding RGB values from global device memory, performs the sepia calculation (`(r*.393) + (g*.769) + (b*.189)`), clamps the results to the `0-255` range, and writes the new RGB value back to the output device memory. Additional kernels are used to prepare data for the FFT (`convert_to_complex_kernel`) and to convert the FFT's complex output into a viewable image (`visualize_fft_kernel`).
 
