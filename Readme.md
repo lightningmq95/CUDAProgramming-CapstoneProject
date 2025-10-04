@@ -108,4 +108,4 @@ Below is an example of the pipeline processing `input_images/cat.jpg` and the co
 
 |          Original (`cat.jpg`)           |        Gaussian Blur (`cat_blurred.jpg`)        |    Sepia Filter (`cat_sepia.jpg`)     |   FFT Magnitude (`cat_fft.jpg`)   |
 | :-------------------------------------: | :---------------------------------------------: | :-----------------------------------: | :-------------------------------: |
-| ![Original Image](input_images/cat.jpg) | ![Blurred Image](output_images/cat_blurred.jpg) | ![Sepia](output_images/cat_sepia.jpg) | ![FFT](output_images/cat_fft.jpg) |
+| ![Original Image](input_images/cat.jpg) | ![Blurred Image](output_images/cat_blurred.png) | ![Sepia](output_images/cat_sepia.png) | ![FFT](output_images/cat_fft.png) |
